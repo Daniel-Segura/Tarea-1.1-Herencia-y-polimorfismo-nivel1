@@ -18,6 +18,15 @@ Añade dos métodos a la clase "Coche". Un método estático llamado frenar() y 
 Demuestra cómo invocar el método estático y el no estático desde el main() de la clase principal.
 
 
+# Tarea 1.1 Herencia y polimorfismo (NIVEL 2)
+
+- Ejercicio 2
+Crea una clase "Coche" con los atributos: marca, modelo y potencia. La marca debe ser estático final, el modelo estático y la potencia final. Demuestra la diferencia entre los tres. ¿Hay alguno que pueda inicializarse al constructor de la clase?
+
+Añade dos métodos a la clase "Coche". Un método estático llamado frenar() y otro no estático llamado acelerar(). El método acelerar debe mostrar por consola: "El vehículo está acelerando" y el método frenar() debe mostrar: "El vehículo está frenando". 
+
+Demuestra cómo invocar el método estático y el no estático desde el main() de la clase principal.
+
 
 ## Descripción del Proyecto 📜
 
@@ -27,9 +36,10 @@ Este repositorio contiene una serie de ejercicios de especialización en Java. E
 
 Los ejercicios están organizados en carpetas. Cada carpeta corresponde a un tema o a un ejercicio específico.
 
-* **/src/tareasnivel1**: Contiene todo el código fuente de la Apps.
+* **/src/tareasnivel1**: Contiene todo el código fuente de las Apps.
 * **/ejercicio1**: Contiene el código fuente del primer ejercicio.
 * **/ejercicio2**: Contiene el código fuente del segundo ejercicio.
+* **/src/tareasnivel2**: Contiene todo el código fuente de la App.
 
 ## Instrucciones para los Correctores ✍️
 
