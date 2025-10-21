@@ -1,7 +1,7 @@
 package tareasnivel1.Ejercicio2.model;
 
 public class Car {
-    public static final String brand = "Audi";
+    public static final String BRAND = "Audi";
     private static String model;
     private final int power;
 
@@ -22,16 +22,19 @@ public class Car {
         System.out.println("The power of car is: " + power + " horsepower");
     }
 
-    public static void frenar() {
+    public static void brake() {
         System.out.println("The car is breaking");
     }
 
-    public void acelerar() {
+    public void accelerate() {
         System.out.println("The car is accelerating");
     }
 
     public String showInfo() {
-        return "Car: \n*" + brand + "\n*model" + model + "\n*power " + power + " HP";
+        return "Car Info: \n" +
+                "*Brand: " + BRAND + "\n" +
+                "*Model: " + model + "\n" +
+                "*Power: " + power + " HP";
     }
 }
 

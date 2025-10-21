@@ -11,8 +11,8 @@ public class Rope extends Instrument {
     }
 
     @Override
-    public void Touch() {
-        System.out.println("A rope instrument is playing");
+    public void touch() {
+        System.out.println("A rope instrument is playing: " + getName() + " The price is: " + "$" + getPrice());
         System.out.println();
     }
 }

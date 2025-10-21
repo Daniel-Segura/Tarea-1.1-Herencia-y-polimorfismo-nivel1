@@ -1,5 +1,5 @@
 package tareanivel2.model;
 
 public interface watch {
-    void alarm();
+    void soundAlarm();
 }

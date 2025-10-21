@@ -11,12 +11,12 @@ public class Wind extends Instrument {
     }
 
     @Override
-    public void Touch() {
-        System.out.println("A wind instrument is playing");
+    public void touch() {
+        System.out.println("A wind instrument is playing: " + getName() + " The price is: " + "$" + getPrice());
         System.out.println();
     }
 
-    public static void StaticWindMethod() {
+    public static void staticWindMethod() {
         System.out.println("Static method of the wind class");
     }
 

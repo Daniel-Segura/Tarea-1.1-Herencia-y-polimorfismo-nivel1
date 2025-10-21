@@ -11,17 +11,17 @@ public class AppRunner {
         System.out.println();
         System.out.println("We access the static method of the wind class");
         System.out.println();
-        Wind.StaticWindMethod();
+        Wind.staticWindMethod();
 
 
-        Instrument myinstrumentwind = new Wind("trumpet", 200.0);
-        myinstrumentwind.Touch();
+        Instrument wind = new Wind("Trumpet", 200.0);
+        wind.touch();
 
-        Instrument myinstrumentpercussion = new Percussion("congas", 75.0);
-        myinstrumentpercussion.Touch(); // provoca la carga de la clase percusión.
+        Instrument percussion = new Percussion("Congas", 75.0);
+        percussion.touch();
 
-        Instrument myinstrumentrope = new Rope("Guitar", 120.0);
-        myinstrumentrope.Touch();
+        Instrument rope = new Rope("Guitar", 120.0);
+        rope.touch();
 
     }
 }

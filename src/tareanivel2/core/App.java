@@ -8,7 +8,7 @@ public class App {
 
         Smartphone.call("658123409");
 
-        phone.photograph();
-        phone.alarm();
+        phone.takePhoto();
+        phone.soundAlarm();
     }
 }

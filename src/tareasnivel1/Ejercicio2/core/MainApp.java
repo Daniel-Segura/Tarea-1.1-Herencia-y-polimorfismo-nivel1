@@ -12,8 +12,8 @@ public class MainApp {
         myCar1.showModel();
 
 
-        myCar1.acelerar();
-        Car.frenar();
+        myCar1.accelerate();
+        Car.brake();
 
         System.out.println(myCar1.showInfo());
     }

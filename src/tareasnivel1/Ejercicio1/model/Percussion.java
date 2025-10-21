@@ -11,8 +11,8 @@ public class Percussion extends Instrument {
     }
 
     @Override
-    public void Touch() {
-        System.out.println("A percussion instrument is playing");
+    public void touch() {
+        System.out.println("A percussion instrument is playing: " + getName() + " The price is: " + "$" + getPrice());
         System.out.println();
     }
 }
