@@ -1,68 +1,67 @@
-# Tarea 1.1 Herencia y polimorfismo (NIVEL 1) ejercicios 1 y 2.
+# Task 1.1 Inheritance and polymorphism (LEVEL 1) exercises 1 and 2.
 
-- Ejercicio 1
-En un grupo de música existen diferentes tipos de instrumentos musicales. Hay instrumentos de viento, cuerda y percusión.
+- Exercise 1
+In a music band, there are different types of musical instruments. There are wind, string, and percussion instruments.
 
-Todos los instrumentos tienen como atributos su nombre y precio. Además, tienen un método llamado tocar(). Éste es abstracto en la clase instrumento y, por tanto, debe implementarse en las clases hijas. Si se está tocando un instrumento de viento, el método debe mostrar por consola: "Está sonando un instrumento de viento", si se está tocando un instrumento de cuerda: "Está sonando un instrumento de cuerda" y si se está tocando un instrumento de percusión: "Está sonando un instrumento de percusión".
+All instruments have as attributes their name and price. In addition, they have a method called play(). This is abstract in the instrument class and, therefore, must be implemented in the child classes. If a wind instrument is being played, the method should display on the console: "A wind instrument is playing", if a string instrument is being played: "A string instrument is playing", and if a percussion instrument is being played: "A percussion instrument is playing".
 
-El proceso de carga de una clase sólo tiene lugar una vez. Demuestra que la carga puede ser provocada por la creación de la primera instancia de esta clase o por el acceso a un miembro estático de ésta. 
+The class loading process only takes place once. Demonstrate that loading can be triggered by the creation of the first instance of this class or by accessing one of its static members.
 
-Buscar información sobre los blogs de inicialización y blogs estáticos en Java.
+Search for information about initialization blocks and static blocks in Java.
 
+- Exercise 2
+Create a class "Car" with the attributes: brand, model, and power. The brand must be static final, the model static, and the power final. Demonstrate the difference between the three. Is there any that can be initialized in the class constructor?
 
-- Ejercicio 2
-Crea una clase "Coche" con los atributos: marca, modelo y potencia. La marca debe ser estático final, el modelo estático y la potencia final. Demuestra la diferencia entre los tres. ¿Hay alguno que pueda inicializarse al constructor de la clase?
+Add two methods to the "Car" class. A static method called brake() and another non-static method called accelerate(). The accelerate() method should display on the console: "The vehicle is accelerating" and the brake() method should display: "The vehicle is braking".
 
-Añade dos métodos a la clase "Coche". Un método estático llamado frenar() y otro no estático llamado acelerar(). El método acelerar debe mostrar por consola: "El vehículo está acelerando" y el método frenar() debe mostrar: "El vehículo está frenando". 
+Demonstrate how to invoke the static and non-static methods from the main() of the main class.
 
-Demuestra cómo invocar el método estático y el no estático desde el main() de la clase principal.
+# Task 1.1 Inheritance and polymorphism (LEVEL 2)
 
+- Exercise 2
+Create a class "Car" with the attributes: brand, model, and power. The brand must be static final, the model static, and the power final. Demonstrate the difference between the three. Is there any that can be initialized in the class constructor?
 
-# Tarea 1.1 Herencia y polimorfismo (NIVEL 2)
+Add two methods to the "Car" class. A static method called brake() and another non-static method called accelerate(). The accelerate() method should display on the console: "The vehicle is accelerating" and the brake() method should display: "The vehicle is braking".
 
-- Ejercicio 2
-Crea una clase "Coche" con los atributos: marca, modelo y potencia. La marca debe ser estático final, el modelo estático y la potencia final. Demuestra la diferencia entre los tres. ¿Hay alguno que pueda inicializarse al constructor de la clase?
+Demonstrate how to invoke the static and non-static methods from the main() of the main class.
 
-Añade dos métodos a la clase "Coche". Un método estático llamado frenar() y otro no estático llamado acelerar(). El método acelerar debe mostrar por consola: "El vehículo está acelerando" y el método frenar() debe mostrar: "El vehículo está frenando". 
+## Project Description 📜
 
-Demuestra cómo invocar el método estático y el no estático desde el main() de la clase principal.
+This repository contains a series of specialization exercises in Java. The main goal is to practice, learn, and understand programming logic.
 
+## How to Navigate the Repository? 🗺️
 
-## Descripción del Proyecto 📜
+The exercises are organized into folders. Each folder corresponds to a topic or a specific exercise.
 
-Este repositorio contiene una serie de ejercicios de especialización en Java. El objetivo principal es la práctica, aprendizaje y entender la lógica de programación.
+* /src/tareasnivel1: Contains all the source code of the Apps.
+* /ejercicio1: Contains the source code of the first exercise.
+* /ejercicio2: Contains the source code of the second exercise.
+* /src/tareasnivel2: Contains all the source code of the App.
 
-## ¿Cómo Navegar por el Repositorio? 🗺️
+## Instructions for Reviewers ✍️
 
-Los ejercicios están organizados en carpetas. Cada carpeta corresponde a un tema o a un ejercicio específico.
+Thank you very much for taking the time to review my code! 😊 To ensure the review is as requested, please focus on the following points:
 
-* **/src/tareasnivel1**: Contiene todo el código fuente de las Apps.
-* **/ejercicio1**: Contiene el código fuente del primer ejercicio.
-* **/ejercicio2**: Contiene el código fuente del segundo ejercicio.
-* **/src/tareasnivel2**: Contiene todo el código fuente de la App.
+* Best practices: Does the code follow Java conventions? (Variable names, methods, etc.).
+* Logic and efficiency: Is the solution correct and does it work? Could it be done in a simpler or more efficient way?
+* Code clarity: Is it easy to read and understand? That would really help me improve as a programmer.
 
-## Instrucciones para los Correctores ✍️
+Leave your feedback
 
-¡Muchas gracias por regalarme tu tiempo en revisar mi código!😊 Para que la corrección sea como nos piden, te pido que te fijes en los siguientes puntos:
+Please leave your comments and suggestions by creating an "Issue" in this repository. If it’s a comment on a specific line, you can do it directly in the "commit" or in the file.
 
-* **Buenas prácticas:** ¿El código sigue las convenciones de Java? (Nombres de variables, métodos, etc.).
-* **Lógica y eficiencia:** ¿La solución es correcta y funciona? ¿Se podría hacer de una forma más simple o eficiente?
-* **Claridad del código:** ¿Es fácil de leer y entender? eso me ayudaría mucho a mejorar como programador.
+## How to Run the Exercises? 🚀
 
-#### **¿Deja tu feedback?**
+To compile and run these exercises, you will need:
 
-Por favor, deja tus comentarios y sugerencias creando un **"Issue"** en este repositorio. Si es un comentario sobre una línea específica, puedes hacerlo directamente en el "commit" o en el archivo.
+* Java Development Kit (JDK), version 11 or higher.
+* An IDE such as IntelliJ IDEA
+ or Eclipse
+.
 
-## ¿Cómo Ejecutar los Ejercicios? 🚀
+Simply clone the repository, open the project in your IDE, and run the main file of each exercise.
 
-Para compilar y ejecutar estos ejercicios, necesitarás:
+## About Me 👨‍💻
 
-* **Java Development Kit (JDK)**, versión 11 o superior.
-* Un **IDE** como [IntelliJ IDEA](https://www.jetbrains.com/idea/) o [Eclipse](https://www.eclipse.org/).
-
-Simplemente clona el repositorio, abre el proyecto en tu IDE y ejecuta el archivo principal de cada ejercicio.
-
-## Sobre Mí 👨‍💻
-
-Soy [Daniel Segura], estudiante de especialización de Backend-Java en la It Academy (Sala Nucli). 
-Estoy enfocado en mejorar mis habilidades en POO y en la lógica de programación. ¡Cualquier feedback constructivo es bienvenido!
+I am [Daniel Segura], a Backend-Java specialization student at the It Academy (Sala Nucli).
+I am focused on improving my skills in OOP and programming logic. Any constructive feedback is welcome!
